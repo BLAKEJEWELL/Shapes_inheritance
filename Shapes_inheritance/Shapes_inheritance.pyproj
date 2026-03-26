@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Basicshape.py" />
     <Compile Include="Circle.py" />
+    <Compile Include="rectangle.py" />
     <Compile Include="Shapes_inheritance.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
