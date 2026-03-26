@@ -22,7 +22,7 @@ class basicshape(ABC):
     def name(self,val):     #ATTENTION
         self._name = val
 
-    @abstarctmethod
+    @abstractmethod
     def calc_area(self):
         pass
 
