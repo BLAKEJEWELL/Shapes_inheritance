@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod #might not need this
 import math
-from tkinter import W
 from Basicshape import basicshape
 
 class rectangle(basicshape):
