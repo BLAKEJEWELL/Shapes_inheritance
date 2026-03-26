@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 import math
 
 class basicshape(ABC):
-    def __init__(self):
+    def __init__(self, name):
         self._area = 0.0    #place holder
-        self._name = "name" #place holder
+        self._name = name #place holder
 
     @property
     def get_area(self):
