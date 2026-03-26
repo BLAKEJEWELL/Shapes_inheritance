@@ -15,12 +15,12 @@ class basicshape(ABC):
         return self._name
 
     @area.setter
-    def name(self):     #ATTENTION
-        self._area = 
+    def name(self, val):     #ATTENTION
+        self._area = val
 
     @name.setter
-    def name(self):     #ATTENTION
-        self._name = 
+    def name(self,val):     #ATTENTION
+        self._name = val
 
     @abstarctmethod
     def calc_area(self):
