@@ -5,7 +5,7 @@ from Circle import Circle
 from rectangle import rectangle
 from square import square
 
-def test(self):
+def test():
     shapes = [
         Circle(2,2,8, "circle 1"),
         Circle(4,4,13, "circle 2"),
@@ -18,3 +18,4 @@ def test(self):
         print(f"{a.name} area: {a.area}")
 
 
+test()

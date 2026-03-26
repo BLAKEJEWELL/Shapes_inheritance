@@ -3,7 +3,8 @@ import math
 from Basicshape import basicshape
 
 class Circle(basicshape):
-    def __init__(self,x,y,r):
+    def __init__(self,x,y,r, n = "circle"):
+        super().__init__(n)
         self._x_center = float(x)
         self._y_center = float(y)
         self._radius = float(r)
@@ -24,7 +25,7 @@ class Circle(basicshape):
 
     @radius.setter
     def radius(self, val):
-        self._radius = val
+        self._radius = float(val)
         self.calc_area()
 
 

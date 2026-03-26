@@ -2,24 +2,22 @@ from abc import ABC, abstractmethod
 import math
 
 class basicshape(ABC):
-    def __init__(self, name):
-        self._area = 0.0    #place holder
-        self._name = name #place holder
+    def __init__(self, name = "shape"):
+        self._area = 0.0    
+        self._name = name 
 
     @property
-    def get_area(self):
+    def area(self):
         return self._area
-
     @property
-    def Get_area(self):
+    def name(self):
         return self._name
 
     @area.setter
-    def name(self, val):     #ATTENTION
+    def area(self, val):     
         self._area = val
-
     @name.setter
-    def name(self,val):     #ATTENTION
+    def name(self,val):     
         self._name = val
 
     @abstractmethod
