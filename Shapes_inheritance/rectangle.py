@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod #might not need this
+from abc import ABC, abstractmethod 
 import math
 from Basicshape import basicshape
 

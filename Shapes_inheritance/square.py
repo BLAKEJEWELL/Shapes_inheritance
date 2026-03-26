@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod #might not need this
+from abc import ABC, abstractmethod 
 from rectangle import rectangle
 import math
 from Basicshape import basicshape
@@ -13,7 +13,7 @@ class square(rectangle):
     def side(self):
         return self._side
     @side.setter
-    def side(self, s): #ATTENTION
+    def side(self, s): 
         self._side = float(s)
         self._length = float(s)
         self._width = float(s)
